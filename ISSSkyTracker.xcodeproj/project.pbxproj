@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10115E8C4E12725D45A39DD2 /* PassDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E419BA7D3A37A9D80FE9BA /* PassDetailView.swift */; };
+		10FD817D63E220D18542ED00 /* SkyOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E57C91799DEA5378855ABE6 /* SkyOverlay.swift */; };
+		11E724264ECA76C7582F8061 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12B321427B5278DFFF64EEDC /* Assets.xcassets */; };
+		14DF64AB4E6FAC235D6F935D /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67E803C1F2A40C350FF29EF /* AppModel.swift */; };
+		22399EDDB11927C50469900C /* TLE.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA072015B07CD607052C88EF /* TLE.swift */; };
+		42A29EF2312AB8696D03CE16 /* Formatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E44E3BE4D384093FC63B685 /* Formatting.swift */; };
+		4A99191BBFB03A4FBD255585 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F274A0912D24A003567581D /* LocationService.swift */; };
+		57F181F2D92DBE140CBA14C1 /* PassPredictor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07B861F3CA7E68725D5F3C4 /* PassPredictor.swift */; };
+		77EFB92AF38B3FAF9F343D49 /* Astro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6855DCBCD8F88B95E39723FB /* Astro.swift */; };
+		798E421879F1448861F9E3A4 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBC9F92FF563E1DDEB73386 /* NotificationService.swift */; };
+		A1717D3991B88D4FE59BDF0D /* CameraService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7199105563F477334CCD8C5A /* CameraService.swift */; };
+		C47930600A4E8FDFB642B054 /* ISSSkyTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1664D0EC72146B02CE970DA /* ISSSkyTrackerApp.swift */; };
+		C8DED5C779FCC1DD1677A4E2 /* OrbitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C49F1DAFED8FA1B42A2FDE2 /* OrbitTests.swift */; };
+		CCBE9637E72541F7484F38C4 /* SGP4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1684B085ACD9D76493F5868B /* SGP4.swift */; };
+		CEF40D2E954494F53A1081C2 /* CameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E624B282D8B868F42B81B89 /* CameraPreview.swift */; };
+		DCE3723C81504B9EE540E068 /* SkyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092C7AA6912A1E73494B4823 /* SkyView.swift */; };
+		E466D19022AFFB7B09C8FA7C /* PassListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D434F9A62B5E5B1BAFE4915E /* PassListView.swift */; };
+		E5DDB6EC1461E2D33BCB7742 /* MotionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81803F527BC15B7BC594181 /* MotionService.swift */; };
+		F7E462F178110B0C1AE00872 /* TLEService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A18F1D4CD17443C3D87A34 /* TLEService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B27869C5A9B228B6C1CB3FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44860D6B8C3A1A353AABE349 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A98F705E4241318E64119D74;
+			remoteInfo = ISSSkyTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		092C7AA6912A1E73494B4823 /* SkyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyView.swift; sourceTree = "<group>"; };
+		0E57C91799DEA5378855ABE6 /* SkyOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyOverlay.swift; sourceTree = "<group>"; };
+		12B321427B5278DFFF64EEDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1684B085ACD9D76493F5868B /* SGP4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGP4.swift; sourceTree = "<group>"; };
+		20E419BA7D3A37A9D80FE9BA /* PassDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassDetailView.swift; sourceTree = "<group>"; };
+		28460C4135A75EEA0D941D55 /* ISSSkyTracker.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = ISSSkyTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F274A0912D24A003567581D /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		5E44E3BE4D384093FC63B685 /* Formatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatting.swift; sourceTree = "<group>"; };
+		6855DCBCD8F88B95E39723FB /* Astro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astro.swift; sourceTree = "<group>"; };
+		6E624B282D8B868F42B81B89 /* CameraPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreview.swift; sourceTree = "<group>"; };
+		7199105563F477334CCD8C5A /* CameraService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraService.swift; sourceTree = "<group>"; };
+		8C49F1DAFED8FA1B42A2FDE2 /* OrbitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrbitTests.swift; sourceTree = "<group>"; };
+		A0A18F1D4CD17443C3D87A34 /* TLEService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLEService.swift; sourceTree = "<group>"; };
+		AA072015B07CD607052C88EF /* TLE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLE.swift; sourceTree = "<group>"; };
+		BDBC9F92FF563E1DDEB73386 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		C67E803C1F2A40C350FF29EF /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		C81803F527BC15B7BC594181 /* MotionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionService.swift; sourceTree = "<group>"; };
+		C8C0BDC42201592EA666EA1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D07B861F3CA7E68725D5F3C4 /* PassPredictor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassPredictor.swift; sourceTree = "<group>"; };
+		D1664D0EC72146B02CE970DA /* ISSSkyTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISSSkyTrackerApp.swift; sourceTree = "<group>"; };
+		D434F9A62B5E5B1BAFE4915E /* PassListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassListView.swift; sourceTree = "<group>"; };
+		FA8AD091225309BEF49250B2 /* ISSSkyTrackerTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = ISSSkyTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0FDBD60DB478C4F1D3C3D6D7 /* ISSSkyTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C49F1DAFED8FA1B42A2FDE2 /* OrbitTests.swift */,
+			);
+			path = ISSSkyTrackerTests;
+			sourceTree = "<group>";
+		};
+		22F88BF90300A196DE61805F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6E624B282D8B868F42B81B89 /* CameraPreview.swift */,
+				5E44E3BE4D384093FC63B685 /* Formatting.swift */,
+				20E419BA7D3A37A9D80FE9BA /* PassDetailView.swift */,
+				D434F9A62B5E5B1BAFE4915E /* PassListView.swift */,
+				0E57C91799DEA5378855ABE6 /* SkyOverlay.swift */,
+				092C7AA6912A1E73494B4823 /* SkyView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2749E3BC67FDD7E0361984F9 /* Orbit */ = {
+			isa = PBXGroup;
+			children = (
+				6855DCBCD8F88B95E39723FB /* Astro.swift */,
+				D07B861F3CA7E68725D5F3C4 /* PassPredictor.swift */,
+				1684B085ACD9D76493F5868B /* SGP4.swift */,
+				AA072015B07CD607052C88EF /* TLE.swift */,
+			);
+			path = Orbit;
+			sourceTree = "<group>";
+		};
+		35C7793F51E2152EFB600FD0 /* ISSSkyTracker */ = {
+			isa = PBXGroup;
+			children = (
+				C67E803C1F2A40C350FF29EF /* AppModel.swift */,
+				12B321427B5278DFFF64EEDC /* Assets.xcassets */,
+				C8C0BDC42201592EA666EA1F /* Info.plist */,
+				D1664D0EC72146B02CE970DA /* ISSSkyTrackerApp.swift */,
+				2749E3BC67FDD7E0361984F9 /* Orbit */,
+				9828BF23903CA68254B76F55 /* Services */,
+				22F88BF90300A196DE61805F /* Views */,
+			);
+			path = ISSSkyTracker;
+			sourceTree = "<group>";
+		};
+		9828BF23903CA68254B76F55 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7199105563F477334CCD8C5A /* CameraService.swift */,
+				4F274A0912D24A003567581D /* LocationService.swift */,
+				C81803F527BC15B7BC594181 /* MotionService.swift */,
+				BDBC9F92FF563E1DDEB73386 /* NotificationService.swift */,
+				A0A18F1D4CD17443C3D87A34 /* TLEService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BB5E1EE3AE5F2262A0FF87A4 = {
+			isa = PBXGroup;
+			children = (
+				35C7793F51E2152EFB600FD0 /* ISSSkyTracker */,
+				0FDBD60DB478C4F1D3C3D6D7 /* ISSSkyTrackerTests */,
+				DC53D858641E0A27B7009E66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC53D858641E0A27B7009E66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28460C4135A75EEA0D941D55 /* ISSSkyTracker.app */,
+				FA8AD091225309BEF49250B2 /* ISSSkyTrackerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A98F705E4241318E64119D74 /* ISSSkyTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64D402D7923BB395B8862DE6 /* Build configuration list for PBXNativeTarget "ISSSkyTracker" */;
+			buildPhases = (
+				2B8B854494952C89AD80AC01 /* Sources */,
+				933BC6A31ACD98D3D7A6AEEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ISSSkyTracker;
+			packageProductDependencies = (
+			);
+			productName = ISSSkyTracker;
+			productReference = 28460C4135A75EEA0D941D55 /* ISSSkyTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E5AB498CB76EFBCAF78EAF83 /* ISSSkyTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E27C47B098CBC20E377038B /* Build configuration list for PBXNativeTarget "ISSSkyTrackerTests" */;
+			buildPhases = (
+				7D682AC3779E28835AEFF15D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1C7CB7C3CA78C6C3356A12E /* PBXTargetDependency */,
+			);
+			name = ISSSkyTrackerTests;
+			packageProductDependencies = (
+			);
+			productName = ISSSkyTrackerTests;
+			productReference = FA8AD091225309BEF49250B2 /* ISSSkyTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44860D6B8C3A1A353AABE349 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					A98F705E4241318E64119D74 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					E5AB498CB76EFBCAF78EAF83 = {
+						DevelopmentTeam = "";
+					};
+				};
+			};
+			buildConfigurationList = 1DEC51200ACDA33FA4986472 /* Build configuration list for PBXProject "ISSSkyTracker" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = BB5E1EE3AE5F2262A0FF87A4;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DC53D858641E0A27B7009E66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A98F705E4241318E64119D74 /* ISSSkyTracker */,
+				E5AB498CB76EFBCAF78EAF83 /* ISSSkyTrackerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		933BC6A31ACD98D3D7A6AEEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11E724264ECA76C7582F8061 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B8B854494952C89AD80AC01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14DF64AB4E6FAC235D6F935D /* AppModel.swift in Sources */,
+				77EFB92AF38B3FAF9F343D49 /* Astro.swift in Sources */,
+				CEF40D2E954494F53A1081C2 /* CameraPreview.swift in Sources */,
+				A1717D3991B88D4FE59BDF0D /* CameraService.swift in Sources */,
+				42A29EF2312AB8696D03CE16 /* Formatting.swift in Sources */,
+				C47930600A4E8FDFB642B054 /* ISSSkyTrackerApp.swift in Sources */,
+				4A99191BBFB03A4FBD255585 /* LocationService.swift in Sources */,
+				E5DDB6EC1461E2D33BCB7742 /* MotionService.swift in Sources */,
+				798E421879F1448861F9E3A4 /* NotificationService.swift in Sources */,
+				10115E8C4E12725D45A39DD2 /* PassDetailView.swift in Sources */,
+				E466D19022AFFB7B09C8FA7C /* PassListView.swift in Sources */,
+				57F181F2D92DBE140CBA14C1 /* PassPredictor.swift in Sources */,
+				CCBE9637E72541F7484F38C4 /* SGP4.swift in Sources */,
+				10FD817D63E220D18542ED00 /* SkyOverlay.swift in Sources */,
+				DCE3723C81504B9EE540E068 /* SkyView.swift in Sources */,
+				22399EDDB11927C50469900C /* TLE.swift in Sources */,
+				F7E462F178110B0C1AE00872 /* TLEService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D682AC3779E28835AEFF15D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8DED5C779FCC1DD1677A4E2 /* OrbitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1C7CB7C3CA78C6C3356A12E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A98F705E4241318E64119D74 /* ISSSkyTracker */;
+			targetProxy = 9B27869C5A9B228B6C1CB3FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		33F1DAF8A552DAAB2C527877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brianbpark.ISSSkyTrackerTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ISSSkyTracker.app/ISSSkyTracker";
+			};
+			name = Release;
+		};
+		3C9CE9ADF9BA5D66AA8C49BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ISSSkyTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brianbpark.ISSSkyTracker;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		8CAD87135103058E6C409B12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brianbpark.ISSSkyTrackerTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ISSSkyTracker.app/ISSSkyTracker";
+			};
+			name = Debug;
+		};
+		A36F8EB887DB00EB4CCDED8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C03C142C7A4F37E861D2D10A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CA53EAA2FD3AAE5AAECE3DF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ISSSkyTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brianbpark.ISSSkyTracker;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEC51200ACDA33FA4986472 /* Build configuration list for PBXProject "ISSSkyTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A36F8EB887DB00EB4CCDED8C /* Debug */,
+				C03C142C7A4F37E861D2D10A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1E27C47B098CBC20E377038B /* Build configuration list for PBXNativeTarget "ISSSkyTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CAD87135103058E6C409B12 /* Debug */,
+				33F1DAF8A552DAAB2C527877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		64D402D7923BB395B8862DE6 /* Build configuration list for PBXNativeTarget "ISSSkyTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA53EAA2FD3AAE5AAECE3DF2 /* Debug */,
+				3C9CE9ADF9BA5D66AA8C49BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44860D6B8C3A1A353AABE349 /* Project object */;
+}
